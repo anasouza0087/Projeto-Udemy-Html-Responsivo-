@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo - Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pagina-contato">
+    <header class="cabecalho">
+        <a href="index.html" class="logo">Design Responsivo</a>
+        <nav class="menu-principal menu-principal--fechado">
+            <button class="menu-principal__btn"></button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre</a></li>
+                <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                <li><a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+        </header>
+        <section class="container pagina-conteudo">
+            <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe eaque suscipit neque! 
+                Ipsa eaque ea voluptas rem totam? Dignissimos unde ea enim accusantium culpa neque vitae, 
+                necessitatibus iusto voluptates!
+            </p>
+            <form action="#" class="formulario">
+                <div class="formulario__grupo formulario__grupo--coluna-esquerda">
+                    <label class="formulario__label" for="nome">Nome</label><br>
+                    <input class="formulario__campo" id="nome" type="text" name="nome">
+                    <br>
+                </div>
+                <div class="formulario__grupo formulario__grupo--coluna-direita">
+                    <label class="formulario__label" for="email">E-mail</label><br>
+                    <input class="formulario__campo" id="email" type="email" name="email">
+                    <br>
+                </div>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <br>
+                </div>
+                <input type="submit" class="formulario__botao" value="Enviar">
+            </form>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe eaque suscipit neque! <br> 
+                Ipsa eaque ea voluptas rem totam? Dignissimos unde ea enim accusantium culpa neque vitae, 
+                necessitatibus iusto voluptates!
+            </p>
+        </section>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3657.366521818098!2d-46.66203879999999!3d-23.5552763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1584664391199!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+             <div class="rodape__coluna">
+                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe eaque suscipit neque! 
+                    Ipsa eaque ea voluptas rem totam? Dignissimos unde ea enim accusantium culpa neque vitae, 
+                    necessitatibus iusto voluptates!
+                </p>
+            </div>
+             <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+             <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>                  
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre</a></li>
+                    <li><a class="rodape__lista-links__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>         
+                </ul>
+            </div>
+        </div>
+        <div class="rodape__linha-2">
+            © 2017 - Todos os direitos reservados - Ana
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

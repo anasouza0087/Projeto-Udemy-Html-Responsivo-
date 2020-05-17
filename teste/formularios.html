@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="nome">Nome</label>
+            <input id ="nome" type="text" name="RecebeNome"> <br>
+        </div>
+        <div>
+            <label for="RecebeEmail">Deseja receber e-mails?</label>
+            <input id="RecebeEmail" type="checkbox" name="RecebeEmail"><br>
+            
+            <label>Sexo:</label><br>
+            
+            <label for="SexoMasculino">Masculino</label>
+            <input id="SexoMasculino" type="radio" name="sexo" value="masculino">
+            
+            <label for="SexoFeminino">Feminino</label>
+            <input id="SexoFeminino" type="radio" name="sexo" value="feminino"><br>
+            
+            <label for="cidade">Cidade</label>
+
+            <select name="cidade" id="cidade">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+            </select>
+            <br>
+
+            <label for="obs">Obs</label>
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+        </div>
+    <input type="submit" value="Enviar">        
+    </form>
+</body>
+</html>
